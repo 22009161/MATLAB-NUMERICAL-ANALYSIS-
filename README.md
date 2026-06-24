@@ -29,13 +29,5 @@ When configuring the program scale to handle $n = 100,000$, attempts to compute 
 
 ---
 
-## Repository Architecture
-* `/src/matrixs.m` - The programmatic functional routine constructing optimized sparse matrices.
-* `/src/main.m` - The central controller handling structural looping, performance tracking, mathematical solvers, and graph visualizations.
-
-## How to Deploy and Run
-1. Clone this repository locally onto your desktop workspace.
-2. Initialize your MATLAB terminal environment and target the active path directory inside the `/src` folder.
-3. Run the script `main.m` to generate console outputs and map out structural sparsity patterns.
 # MATLAB-NUMERICAL-ANALYSIS-
 MATLAB numerical analysis project benchmarking direct (LU, Cholesky) and iterative (Jacobi, Gauss-Seidel) linear system solvers on large sparse pentadiagonal matrices.
